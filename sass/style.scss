@@ -1,0 +1,118 @@
+/*------------------------------------------------------------------
+Theme Name: POLYGON - Multipurpose Template
+Version: 1.0
+Author: Surjith S M
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+
+    1. GLOBAL STYLES
+    2. HEADER
+    3. ACCORDION STYLES 
+    4. COMMON STYLES 
+    5. FOOTER 
+    6. ALERTS 
+    7. BUTTONS 
+    8. CALL TO ACTION 
+    9. PROGRESS BAR / SKILLS 
+    10. COLUMNS 
+    11. STATS COUNTER 
+    12. COUNTDOWN TIMER 
+    13. DIVIDER 
+    14. DROPCAPS 
+    15. CONTACT FORM 
+    16. GALLERY 
+    17. ICON BOX 
+    18. ABOUT STYLES 
+    19. TESTIMONIALS 
+    20. TEAM 
+    21. GOOGLE MAP 
+    22. SERVICES STYLES 
+    23. DUAL CONTENT 
+    24. PRICING TABLE 
+    25. BLOG 
+    26. PAGINATION 
+    27. SIDEBAR 
+    28. SHOP 
+    29. PORTFOLIO 
+    30. EXTRAS  
+    31. RESPONSIVE STYLES
+    
+    -------------------------------------------------------------------*/
+
+/* ------- IMPORT GOOGLE FONTS  ------- */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,400italic,500,600,700,700italic,900);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,400italic,500,600,700,700italic,900);
+
+
+// ------- IMPORT SASS CONPONENTS ------- //
+
+//
+// TIP : You may remove unused components and recompile the sass for production
+//       It helps to reduce the size of the stylesheet
+//
+
+
+@import 'components/global';
+
+@import 'components/header';
+
+@import 'components/accordion';
+
+@import 'components/common';
+
+@import 'components/footer';
+
+@import 'components/alerts';
+
+@import 'components/buttons';
+
+@import 'components/call-to-action';
+
+@import 'components/progress-bar';
+
+@import 'components/columns';
+
+@import 'components/stats-counter';
+
+@import 'components/countdown';
+
+@import 'components/divider';
+
+@import 'components/dropcaps';
+
+@import 'components/contact';
+
+@import 'components/gallery';
+
+@import 'components/icon-box';
+
+@import 'components/testimonials';
+
+@import 'components/team';
+
+@import 'components/google-map';
+
+@import 'components/services';
+
+@import 'components/dual-content';
+
+@import 'components/pricing';
+
+@import 'components/blog';
+
+@import 'components/pagination';
+
+@import 'components/sidebar';
+
+@import 'components/shop';
+
+@import 'components/portfolio';
+
+@import 'components/extras';
+
+@import 'components/responsive';
