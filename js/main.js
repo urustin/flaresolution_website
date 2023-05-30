@@ -180,19 +180,7 @@ jQuery(document).ready(function($) {
     /* ==========================================================================
     MOBILE MENU DROPDOWN
     ========================================================================== */
-    var $menu = $('.mobile-menu');
 
-    $menu.find('#mobile-menu li.menu-item-has-children > a, .sub-menu-toggle').on('click', function(e) {
-        e.preventDefault();
-        var subMenu = $(this).siblings('.sub-menu');
-
-        if (subMenu.css('display') == 'block') {
-            subMenu.css('display', 'block').slideUp().parent().removeClass('expand');
-        } else {
-            subMenu.css('display', 'none').slideDown().parent().addClass('expand');
-        }
-        e.stopPropagation();
-    });
 
 
     /* ==========================================================================
