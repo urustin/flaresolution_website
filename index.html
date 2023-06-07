@@ -1084,27 +1084,24 @@
             </div>
         </div> -->
         <!-- 여기까지 -->
-        <!-- contactus box -->
         <div class="cform padding-100">
             <div class="container">
                 <div class="content-head text-center">
                     <h1>Do Not Hesitate</h1>
-                    <p>No need to hesitate. Just send your email,
-                    <br>We will reply in 24hours. DONE!</p>
+                    <p>No need to hesitate. Just send your email,<br>We will reply in 24 hours. DONE!</p>
                     <br>
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <form class="contact-form" action="/api/contact.py" id="phpcontactform" method="POST">
+                        <form id="phpcontactform">
                             <div class="row">
                                 <div class="col-md-auto">
                                     <input placeholder="Type Your Email Please *" type="email" name="email" title="Please enter your email" required>
                                 </div>
                             </div>
-                            
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button type="submit" id="js-contact-btn">Submit</button>
+                                    <button type="button" id="js-contact-btn">Submit</button>
                                 </div>
                             </div>
                             <div id="js-contact-result" data-success-msg="Thank you. We will be in touch soon." data-error-msg="Oops. Something went wrong."></div>
@@ -1113,6 +1110,7 @@
                 </div>
             </div>
         </div>
+        
 
         <!-- ****************** FOOTER ******************* -->
         <footer>
@@ -1249,6 +1247,7 @@
     <script src="js/vendors/isotope/main.js"></script>
     <script src="js/vendors/swipebox/js/jquery.swipebox.min.js"></script>
     <script src="js/vendors/swipebox/js/main.js"></script>
+    <script src="js/mail.js"></script>
     <!-- Revolution Slider -->
     <script type='text/javascript' src='js/revolution/js/jquery.themepunch.tools.min.js'></script>
     <script type='text/javascript' src='js/revolution/js/jquery.themepunch.revolution.min.js'></script>
@@ -1259,6 +1258,7 @@
     <script type="text/javascript" src="js/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="js/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="js/revolution/main.js"></script>
+    
 </body>
 
 </html>

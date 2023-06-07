@@ -9,7 +9,16 @@ class handler(BaseHTTPRequestHandler):
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])
         post_data = self.rfile.read(content_length)
-        data = json.loads(post_data)
+
+        try:
+            data = json.loads(post_data)
+        except json.JSONDecodeError:
+            self.send_error(400, 'Invalid JSON')
+            return
+
+        if 'email' not in data:
+            self.send_error(400, 'Missing "email" field')
+            return
 
         email = data['email']
 
@@ -25,7 +34,8 @@ class handler(BaseHTTPRequestHandler):
             print(response.body)
             print(response.headers)
         except Exception as e:
-            print(e.message)
+            self.send_error(500, 'Error sending email')
+            return
 
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
