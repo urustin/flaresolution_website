@@ -1432,9 +1432,13 @@ textarea {
     5. FOOTER
     ========================================================================== */
 footer {
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
   margin: 0px;
   background-color: #222;
+  
+}
+footer #site-navigation .menu > li a{
+  color:white;
 }
 
 .footer-widget {

@@ -28,7 +28,7 @@ class handler(BaseHTTPRequestHandler):
             subject='Website Request',
             plain_text_content='')
         try:
-            sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
+            sg = SendGridAPIClient('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')
             response = sg.send(message)
             print(response.status_code)
             print(response.body)

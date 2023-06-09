@@ -4,7 +4,7 @@ document.getElementById('js-contact-btn').addEventListener('click', function(e) 
     var emailInput = document.querySelector('input[name="email"]');
     var email = emailInput.value;
 
-    fetch('/api/contact.py', {
+    fetch('../api/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
