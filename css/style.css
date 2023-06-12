@@ -1440,6 +1440,11 @@ footer {
 footer #site-navigation .menu > li a{
   color:white;
 }
+footer #site-navigation #primary-menu{
+  width:40%;
+  margin:0 auto;
+  float: none;
+}
 
 .footer-widget {
   padding: 0px 0 0 8px;
@@ -2292,43 +2297,37 @@ footer.footer2 {
 /* ==========================================================================
     15. CONTACT FORM
     ========================================================================== */
-.contact-form button {
+#contact-form button {
   background: transparent;
   border: 2px solid #1674D1;
   font-size: 12px;
   font-weight: 900;
   padding: 11px 35px 11px 35px;
   margin: 0px auto;
+  margin-top : 20px;
   text-transform: uppercase;
   letter-spacing: .05em;
   color: #1674D1;
   display: table;
 }
 
-.contact-form button:hover {
+#contact-form button:hover {
   background: #1674D1;
   border: 2px solid #1674D1;
   color: #fff;
 }
-
-.contact-form .col-md-6,
-.contact-form .col-md-12 {
-  padding: 0 5px;
+#contact-form input{
+  background-color: #eee;
+  margin: 0 auto;
+  margin-top:20px;
+}
+.cform .row #contact-form{
+  width : 50%;
+  margin: 0 auto;
+  /* background-color: #000; */
 }
 
-.contact-form .row {
-  margin: 0 -5px;
-}
 
-.help-block {
-  margin-top: 0;
-  color: #EA5A57;
-  margin-bottom: 20px;
-}
-
-.top-space {
-  margin-top: 20px;
-}
 
 /* ==========================================================================
     16. GALLERY
